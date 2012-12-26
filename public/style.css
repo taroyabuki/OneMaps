@@ -1,0 +1,23 @@
+* { margin: 0px; padding: 0px; }
+#map_canvas, #buttons, #buttons div { position: absolute; }
+html, body, #map_canvas, #buttons { width: 100%; height: 100%; }
+#map_canvas { top: 0%; left: 0%; z-index: 1; }
+#buttons div { z-index: 2; }
+#tlt, #trt, #blb, #brb { width: 30%; height: 10%; }
+#tll, #trr, #bll, #brr { width: 10%; height: 30%; }
+#tlt, #trt { top: 0%; }
+#tll, #trr { top: 10%; }
+#bll, #brr { top: 60%; }
+#blb, #brb { top: 90%; }
+#tll, #bll { left: 0%; }
+#tlt, #blb { left: 10%; }
+#trt, #brb { left: 60%; }
+#trr, #brr { left: 90%; }
+#tlt, #trt { border-radius: 0px 0px 15px 15px; }
+#tll, #bll { border-radius: 0px 15px 15px 0px; }
+#trr, #brr { border-radius: 15px 0px 0px 15px; }
+#blb, #brb { border-radius: 15px 15px 0px 0px; }
+#tlt, #brb { background-color: #0266C8; }
+#trt, #blb { background-color: #F90101; }
+#trr, #bll { background-color: #F2B50F; }
+#brr, #tll { background-color: #00933B; }
