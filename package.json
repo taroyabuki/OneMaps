@@ -1,0 +1,18 @@
+{
+  "author": "@yabuki",
+  "name": "AGoogleMaps",
+  "description": "Google Maps for Multi Windows",
+  "version": "1.0.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+    "socket.io": "*",
+    "express": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
