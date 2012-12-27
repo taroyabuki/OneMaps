@@ -38,6 +38,10 @@ node server.js
 
 Request `http://localhost:3000/` from web browsers.
 
+### PaaS
+
+[Heroku](https://www.heroku.com/) and [AppFog](https://www.appfog.com/) are tested.
+
 ## Licence
 
 Copyright 2012 Taro YABUKI
