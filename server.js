@@ -29,7 +29,8 @@ var express = require('express')
 var app = express();
 
 app.use(express.static(__dirname + '/public'));
-var port = process.env.VMC_APP_PORT || 3000; //for AppFog
+//port: Heroku || AppFog || 3000
+var port = process.env.PORT || process.env.VMC_APP_PORT || 3000;
 var server = http.createServer(app).listen(port, function() {
   console.log('Express server listening on port ' + port);
 });

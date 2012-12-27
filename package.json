@@ -1,8 +1,8 @@
 {
   "author": "@yabuki",
-  "name": "AGoogleMaps",
-  "description": "Google Maps for Multi Windows",
-  "version": "1.0.0",
+  "name": "OneMaps",
+  "description": "One Map with multiple web browserS",
+  "version": "1.2.1",
   "repository": {
     "url": ""
   },
@@ -13,6 +13,6 @@
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": "0.8.x"
   }
 }
