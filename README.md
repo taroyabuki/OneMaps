@@ -23,7 +23,7 @@ Clone the repository.
 git clone https://github.com/taroyabuki/OneMaps.git
 ```
 
-Install dependent libraries.
+Install dependent libraries. To run on [AppFog](https://www.appfog.com/), you should install libraries before `af update`.
 
 ```bash
 cd OneMaps
