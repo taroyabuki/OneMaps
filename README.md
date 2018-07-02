@@ -5,8 +5,8 @@ One Map with multiple web browserS
 
 ## Movies
 
-- http://youtu.be/FKgEcHGOZOk
-- http://youtu.be/L5NxefoO0qY
+- https://youtu.be/FKgEcHGOZOk
+- https://youtu.be/L5NxefoO0qY
 
 ## Installation
 
